@@ -9,7 +9,7 @@ RUN make -j$(nproc) build
 
 # ACTUAL IMAGE -------------------------------------------------------
 
-FROM debian:12.1-slim
+FROM debian:bookworm-20240926-slim
 
 ARG GIT_COMMIT=unknown
 
